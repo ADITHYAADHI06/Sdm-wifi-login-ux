@@ -1,0 +1,62 @@
+
+body{
+background-image:url('bg.jpg');
+background-size: cover;
+
+}
+    .green{
+     /* background-color: rgb(42, 128, 42); */
+     background-color: #27AE60;
+     color:#FFFFFF;
+     font-weight: 600;
+      text-decoration: none;    }
+    .bwhite{
+        background-color: #FFFFFF;
+        text-align: center;
+        width: 350px;
+        height: max-content;
+        border-radius: 15px;
+       
+    }
+    .black{
+        background-color: black;
+        color: #fff;
+        text-decoration: white;
+        text-align: center;
+        margin: 0;
+       
+
+    }
+   .logo{
+       max-width: 200px;
+       height: 140px;
+   }
+
+    .fa {  
+  padding: 10px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 15px;  
+  width: 30px; 
+  border-radius: 50%; 
+  text-decoration: none;
+
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white; 
+
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-pinterest {  
+  background: #cb2027;  
+  color: white;  
+}  
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
+

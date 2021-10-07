@@ -1,0 +1,114 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css">
+    <title>sdmit login</title>
+  </head>
+  <body> 
+    
+    <div class="container  my-md-0 bg_img d-flex justify-content-center flex-column my-5">
+
+       <div class="row justify-content-center my-5">
+          <div class="col-md-7 col-sm-10  ">
+             <img src="HOTSPOTimg.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+
+
+    <div class="row justify-content-center mx-1 ">
+        <div class="col-md-7 col-sm-8  bwhite px-2">
+            
+          <img src="sdmit logo.png" alt="" class="img-fluid text-center logo mt-4"> <br>
+       <div class="mx-3">
+            <input type="email" class="form-control mb-3 mt-4 w-100 username p-1 " id="exampleFormControlInput1 " placeholder="Enter your userId">
+            <input type="password" class="form-control mb-2 w-100 password p-1 " id="exampleFormControlInput1  " placeholder="Enter your password">
+        </div>
+       <div class="row justify-content-evenly mt-2 mx-3">
+        <button type="button" class="btn green btn-sm my-2 " id="login">Log in</button>
+        <button type="button" class="btn green btn-sm  " id="Previous"><a href="index.html" class="green ">Previous</a> </button>
+    </div>
+    <p id="passwordempty"></p>
+         <div class="my-2 mt-3">
+                 <span class="my-0">My Page URL</span>
+                 <button type="button" class="btn btn-link  m-0 p-0">https://103.54.182.55.4010/#/login/yours-network-291</button>
+            <div class="row py-2">
+          <div class="col-md-6 col-sm-6 mx-auto">
+            <a href="#" class="fa fa-facebook img-fluid"></a>  
+            <a href="#" class="fa fa-twitter img-fluid"></a>  
+            <a href="#" class="fa fa-pinterest img-fluid"></a>  
+            <a href="#" class="fa fa-linkedin img-fluid"></a>  
+              </div>
+             </div>
+            </div>
+            
+    </div>
+
+      </div> 
+    </div>
+    <div class="alert black" role="alert">
+      Cloned by Adithya Shetty
+      </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+
+ <script>
+ 
+
+  //  login btn function 
+
+   let login=document.getElementById('login');
+
+
+
+   login.addEventListener('click', ()=>{
+        let username = document.querySelector('.username').value;
+        let password = document.querySelector('.password').value;
+
+    if(username=="allthebest" && password=="sdmit.in")
+   {
+       location.assign('https://www.msn.com/en-in/?ocid=wispr&pc=u477&AR=2');
+
+   }
+   else{
+    location.assign('failed.html');
+      
+   }
+   });
+    
+   login.addEventListener('click', ()=>{
+        let username = document.querySelector('.username').value;
+        let password = document.querySelector('.password').value;
+        let passwordempty= document.querySelector('#passwordempty');
+
+    if(username=="allthebest" && password=="")
+   {
+    passwordempty.innerHTML="Password must be filled";   
+       
+   }
+   
+   });
+
+
+   
+  
+
+
+ </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
